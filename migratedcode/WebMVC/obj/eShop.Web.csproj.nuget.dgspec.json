@@ -1,0 +1,180 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\opt\\app-root\\data\\1261\\cbc55782-9cab-4db2-bbb7-9139924fb12e\\1261-DOTNETMIGRATIONAMEX\\WebMVC\\eShop.Web.csproj": {}
+  },
+  "projects": {
+    "c:\\opt\\app-root\\data\\1261\\cbc55782-9cab-4db2-bbb7-9139924fb12e\\1261-DOTNETMIGRATIONAMEX\\WebMVC\\eShop.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\opt\\app-root\\data\\1261\\cbc55782-9cab-4db2-bbb7-9139924fb12e\\1261-DOTNETMIGRATIONAMEX\\WebMVC\\eShop.Web.csproj",
+        "projectName": "eShop.Web",
+        "projectPath": "c:\\opt\\app-root\\data\\1261\\cbc55782-9cab-4db2-bbb7-9139924fb12e\\1261-DOTNETMIGRATIONAMEX\\WebMVC\\eShop.Web.csproj",
+        "packagesPath": "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\",
+        "outputPath": "c:\\opt\\app-root\\data\\1261\\cbc55782-9cab-4db2-bbb7-9139924fb12e\\1261-DOTNETMIGRATIONAMEX\\WebMVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Antlr4": {
+              "target": "Package",
+              "version": "[4.6.6, )"
+            },
+            "Elmah.Mvc": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.AspNetCore.SystemWebAdapters": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.SystemWebAdapters.CoreServices": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.Extensions.Primitives": {
+              "target": "Package",
+              "version": "[9.0.11, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.14, )"
+            },
+            "Microsoft.jQuery.Unobtrusive.Validation": {
+              "target": "Package",
+              "version": "[3.2.11, )"
+            },
+            "Modernizr": {
+              "target": "Package",
+              "version": "[2.8.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Net.Http.Formatting.Extension": {
+              "target": "Package",
+              "version": "[5.2.3, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[6.1.2, )"
+            },
+            "System.Text.Encodings.Web": {
+              "target": "Package",
+              "version": "[9.0.11, )"
+            },
+            "Unity": {
+              "target": "Package",
+              "version": "[5.11.10, )"
+            },
+            "Unity.Abstractions": {
+              "target": "Package",
+              "version": "[5.11.2, )"
+            },
+            "Unity.Configuration": {
+              "target": "Package",
+              "version": "[5.11.2, )"
+            },
+            "Unity.Container": {
+              "target": "Package",
+              "version": "[5.11.5, )"
+            },
+            "Unity.Mvc": {
+              "target": "Package",
+              "version": "[5.11.1, )"
+            },
+            "WebActivatorEx": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "WebGrease": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "elmah.corelibrary": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "jQuery.Validation": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

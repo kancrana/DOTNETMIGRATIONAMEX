@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
+    <servers>
+        <!-- server| Specifies the authentication information to use when connecting to a particular server, identified by| a unique name within the system (referred to by the 'id' attribute below).|| NOTE: You should either specify username/password OR privateKey/passphrase, since these pairings are|       used together.|-->
+        <!--         <server><id>nexus</id><username>admin</username><password>PasswordNotNeededHere</password></server> -->
+        <server>
+            <id>dip-artifacts</id>
+            <username>admin</username>
+            <password>dem0N3xus</password>
+        </server>
+    </servers>
+    <profiles>
+        <profile>
+            <id>use-multiple-repos</id>
+            <!--Request multiple Repositories for dependencies -->
+            <repositories>
+                <repository>
+                    <id>central</id>
+                    <url>https://repo.maven.apache.org/maven2</url>
+                </repository>
+                <!--                 <repository><id>dip-artifacts</id><url>https://nexus-repo-devops-tools.hcs-devassets-9a1d4223f05070219d31479578abfd94-0000.eu-de.containers.appdomain.cloud/repository/dip-artifacts/</url></repository> -->
+                <repository>
+                    <id>dip-artifacts</id>
+                    <url>https://nexus.demo.cloudaccelerator.ibm.com/repository/dip-artifacts/</url>
+                </repository>
+            </repositories>
+            <pluginRepositories/>
+        </profile>
+    </profiles>
+    <activeProfiles>
+        <!--make the profile active all the time -->
+        <activeProfile>use-multiple-repos</activeProfile>
+    </activeProfiles>
+    <mirrors>
+        <mirror>
+            <id>central-mirror</id>
+            <name>Maven Central Mirror</name>
+            <url>https://repo1.maven.org/maven2/</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+    </mirrors>
+</settings>

@@ -1,0 +1,11 @@
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Domain\obj\Debug\netstandard2.0\eShop.Domain.csproj.AssemblyReference.cache
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Domain\obj\Debug\netstandard2.0\eShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Domain\obj\Debug\netstandard2.0\eShop.Domain.AssemblyInfoInputs.cache
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Domain\obj\Debug\netstandard2.0\eShop.Domain.AssemblyInfo.cs
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Domain\obj\Debug\netstandard2.0\eShop.Domain.csproj.CoreCompileInputs.cache
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Domain\obj\Debug\netstandard2.0\eShop.Domain.sourcelink.json
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Domain\bin\Debug\netstandard2.0\eShop.Domain.deps.json
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Domain\bin\Debug\netstandard2.0\eShop.Domain.dll
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Domain\bin\Debug\netstandard2.0\eShop.Domain.pdb
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Domain\obj\Debug\netstandard2.0\eShop.Domain.dll
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Domain\obj\Debug\netstandard2.0\eShop.Domain.pdb

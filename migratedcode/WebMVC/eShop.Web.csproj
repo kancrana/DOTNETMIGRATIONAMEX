@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
+    <DockerLaunchUrl>http://{ServiceIPAddress}</DockerLaunchUrl>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+    <TargetFramework>net9.0</TargetFramework>
+    <AssemblyTitle>eShop.Web</AssemblyTitle>
+    <Product>eShop.Web</Product>
+    <Copyright>Copyright ©  2021</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="5.0.2" />
+    <PackageReference Include="elmah.corelibrary" Version="1.2" />
+    <PackageReference Include="Elmah.Mvc" Version="2.1.2" />
+    <PackageReference Include="jQuery" Version="3.4.1" />
+    <PackageReference Include="jQuery.Validation" Version="1.17.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.Extensions.Primitives" Version="9.0.11" />
+    <PackageReference Include="Microsoft.jQuery.Unobtrusive.Validation" Version="3.2.11" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.14" />
+    <PackageReference Include="Modernizr" Version="2.8.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="System.Net.Http.Formatting.Extension" Version="5.2.3.0" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.1.2" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="9.0.11" />
+    <PackageReference Include="Unity" Version="5.11.10" />
+    <PackageReference Include="Unity.Abstractions" Version="5.11.2" />
+    <PackageReference Include="Unity.Configuration" Version="5.11.2" />
+    <PackageReference Include="Unity.Container" Version="5.11.5" />
+    <PackageReference Include="Unity.Mvc" Version="5.11.1" />
+    <PackageReference Include="WebActivatorEx" Version="2.2.0" />
+    <PackageReference Include="WebGrease" Version="1.6.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SystemWebAdapters" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SystemWebAdapters.CoreServices" Version="2.2.0" />
+    <PackageReference Include="Antlr4" Version="4.6.6" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update=".dockerignore">
+      <DependentUpon>Dockerfile</DependentUpon>
+    </None>
+  </ItemGroup>
+</Project>

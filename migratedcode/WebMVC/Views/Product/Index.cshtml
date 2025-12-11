@@ -1,0 +1,13 @@
+﻿@model eShop.Web.ViewModels.ProductListViewModel.ProductListViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+<script src="~/Content/Carbon/product-catalog.js"></script>
+<header class="div-page-title">Product Listing</header>
+
+<div class="bx--product-layout">
+    <div class="filter"> @Html.Partial("ProductFilter", Model)</div>
+    <div class="content" id="productList">
+        @Html.Partial("ProductList", Model.ProductList)
+    </div>
+</div>

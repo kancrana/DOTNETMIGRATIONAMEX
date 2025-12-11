@@ -1,0 +1,251 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Girish\\TEST4X\\eShop4x\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2C26FA-8B5F-4991-A714-06A2E3982668}|WebMVC\\eShop.Web.csproj|c:\\girish\\test4x\\eshop4x\\webmvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A2C26FA-8B5F-4991-A714-06A2E3982668}|WebMVC\\eShop.Web.csproj|solutionrelative:webmvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2C26FA-8B5F-4991-A714-06A2E3982668}|WebMVC\\eShop.Web.csproj|C:\\Girish\\TEST4X\\eShop4x\\webmvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2C26FA-8B5F-4991-A714-06A2E3982668}|WebMVC\\eShop.Web.csproj|solutionrelative:webmvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2C26FA-8B5F-4991-A714-06A2E3982668}|WebMVC\\eShop.Web.csproj|C:\\Girish\\TEST4X\\eShop4x\\webmvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1A2C26FA-8B5F-4991-A714-06A2E3982668}|WebMVC\\eShop.Web.csproj|solutionrelative:webmvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C73ECE-4165-4396-ACD5-5ACF8F4F97AC}|Domain{96C73ECE-4165-4396-ACD5-5ACF8F4F97AC}|eShop.Domain||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FE5BF9-CF94-4B44-A416-771562AE032C}|WebAPI\\eShop.WebApi.csproj|C:\\Girish\\TEST4X\\eShop4x\\webapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{23FE5BF9-CF94-4B44-A416-771562AE032C}|WebAPI\\eShop.WebApi.csproj|solutionrelative:webapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BAD0B15-728C-408E-BDAA-3C03318C35C9}|eShop.Repository.EntityFramework\\eShop.Repository.EntityFramework.csproj|C:\\Girish\\TEST4X\\eShop4x\\eshop.repository.entityframework\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1BAD0B15-728C-408E-BDAA-3C03318C35C9}|eShop.Repository.EntityFramework\\eShop.Repository.EntityFramework.csproj|solutionrelative:eshop.repository.entityframework\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BAD0B15-728C-408E-BDAA-3C03318C35C9}|eShop.Repository.EntityFramework\\eShop.Repository.EntityFramework.csproj|C:\\Girish\\TEST4X\\eShop4x\\eshop.repository.entityframework\\productcatalog\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BAD0B15-728C-408E-BDAA-3C03318C35C9}|eShop.Repository.EntityFramework\\eShop.Repository.EntityFramework.csproj|solutionrelative:eshop.repository.entityframework\\productcatalog\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FE5BF9-CF94-4B44-A416-771562AE032C}|WebAPI\\eShop.WebApi.csproj|C:\\Girish\\TEST4X\\eShop4x\\webapi\\controllers\\productcatalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FE5BF9-CF94-4B44-A416-771562AE032C}|WebAPI\\eShop.WebApi.csproj|solutionrelative:webapi\\controllers\\productcatalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FE5BF9-CF94-4B44-A416-771562AE032C}|WebAPI\\eShop.WebApi.csproj|C:\\Girish\\TEST4X\\eShop4x\\webapi\\unity.entityframework6.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{23FE5BF9-CF94-4B44-A416-771562AE032C}|WebAPI\\eShop.WebApi.csproj|solutionrelative:webapi\\unity.entityframework6.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FE5BF9-CF94-4B44-A416-771562AE032C}|WebAPI\\eShop.WebApi.csproj|C:\\Girish\\TEST4X\\eShop4x\\webapi\\app_start\\unityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23FE5BF9-CF94-4B44-A416-771562AE032C}|WebAPI\\eShop.WebApi.csproj|solutionrelative:webapi\\app_start\\unityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A2C26FA-8B5F-4991-A714-06A2E3982668}|WebMVC\\eShop.Web.csproj|C:\\Girish\\TEST4X\\eShop4x\\webmvc\\services\\productlistingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A2C26FA-8B5F-4991-A714-06A2E3982668}|WebMVC\\eShop.Web.csproj|solutionrelative:webmvc\\services\\productlistingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BAD0B15-728C-408E-BDAA-3C03318C35C9}|eShop.Repository.EntityFramework\\eShop.Repository.EntityFramework.csproj|C:\\Girish\\TEST4X\\eShop4x\\eshop.repository.entityframework\\cart\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BAD0B15-728C-408E-BDAA-3C03318C35C9}|eShop.Repository.EntityFramework\\eShop.Repository.EntityFramework.csproj|solutionrelative:eshop.repository.entityframework\\cart\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD8455C3-FB4A-49F4-9644-F3905FB03BF7}|WebAPI{AD8455C3-FB4A-49F4-9644-F3905FB03BF7}|eShop.WebApi||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB93E2F-1387-4949-8439-D91F4A75FA5C}|Infrastructure{AEB93E2F-1387-4949-8439-D91F4A75FA5C}|eShop.Repository.EntityFramework||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BED11818-4762-4151-BF3D-DDBD4D012A2F}|eShop.Domain\\eShop.Domain.csproj|c:\\girish\\test4x\\eshop4x\\eshop.domain\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BAD0B15-728C-408E-BDAA-3C03318C35C9}|eShop.Repository.EntityFramework\\eShop.Repository.EntityFramework.csproj|c:\\girish\\test4x\\eshop4x\\eshop.repository.entityframework\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23FE5BF9-CF94-4B44-A416-771562AE032C}|WebAPI\\eShop.WebApi.csproj|c:\\girish\\test4x\\eshop4x\\webapi\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Girish\\TEST4X\\eShop4x\\WebMVC\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Girish\\TEST4X\\eShop4x\\WebMVC\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T04:36:09.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Girish\\TEST4X\\eShop4x\\WebMVC\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Girish\\TEST4X\\eShop4x\\WebMVC\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebMVC\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T04:18:07.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "eShop.Repository.EntityFramework",
+              "DocumentMoniker": "C:\\Girish\\TEST4X\\eShop4x\\eShop.Repository.EntityFramework\\eShop.Repository.EntityFramework.csproj",
+              "RelativeDocumentMoniker": "eShop.Repository.EntityFramework\\eShop.Repository.EntityFramework.csproj",
+              "ToolTip": "C:\\Girish\\TEST4X\\eShop4x\\eShop.Repository.EntityFramework\\eShop.Repository.EntityFramework.csproj",
+              "RelativeToolTip": "eShop.Repository.EntityFramework\\eShop.Repository.EntityFramework.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-22T04:03:53.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "eShop.Domain",
+              "DocumentMoniker": "C:\\Girish\\TEST4X\\eShop4x\\eShop.Domain\\eShop.Domain.csproj",
+              "RelativeDocumentMoniker": "eShop.Domain\\eShop.Domain.csproj",
+              "ToolTip": "C:\\Girish\\TEST4X\\eShop4x\\eShop.Domain\\eShop.Domain.csproj",
+              "RelativeToolTip": "eShop.Domain\\eShop.Domain.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-22T04:04:09.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "eShop.WebApi",
+              "DocumentMoniker": "C:\\Girish\\TEST4X\\eShop4x\\WebAPI\\eShop.WebApi.csproj",
+              "RelativeDocumentMoniker": "WebAPI\\eShop.WebApi.csproj",
+              "ToolTip": "C:\\Girish\\TEST4X\\eShop4x\\WebAPI\\eShop.WebApi.csproj",
+              "RelativeToolTip": "WebAPI\\eShop.WebApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-22T04:03:44.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Girish\\TEST4X\\eShop4x\\WebMVC\\Web.config",
+              "RelativeDocumentMoniker": "WebMVC\\Web.config",
+              "ToolTip": "C:\\Girish\\TEST4X\\eShop4x\\WebMVC\\Web.config",
+              "RelativeToolTip": "WebMVC\\Web.config",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwCEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-22T05:22:50.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "app.config",
+              "DocumentMoniker": "C:\\Girish\\TEST4X\\eShop4x\\eShop.Repository.EntityFramework\\App.Config",
+              "RelativeDocumentMoniker": "eShop.Repository.EntityFramework\\App.Config",
+              "ToolTip": "C:\\Girish\\TEST4X\\eShop4x\\eShop.Repository.EntityFramework\\App.Config",
+              "RelativeToolTip": "eShop.Repository.EntityFramework\\App.Config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-22T04:10:50.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Girish\\TEST4X\\eShop4x\\eShop.Repository.EntityFramework\\ProductCatalog\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "eShop.Repository.EntityFramework\\ProductCatalog\\ProductRepository.cs",
+              "ToolTip": "C:\\Girish\\TEST4X\\eShop4x\\eShop.Repository.EntityFramework\\ProductCatalog\\ProductRepository.cs",
+              "RelativeToolTip": "eShop.Repository.EntityFramework\\ProductCatalog\\ProductRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwCwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T04:56:31.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "unity.entityframework6.config",
+              "DocumentMoniker": "C:\\Girish\\TEST4X\\eShop4x\\WebAPI\\unity.entityframework6.config",
+              "RelativeDocumentMoniker": "WebAPI\\unity.entityframework6.config",
+              "ToolTip": "C:\\Girish\\TEST4X\\eShop4x\\WebAPI\\unity.entityframework6.config",
+              "RelativeToolTip": "WebAPI\\unity.entityframework6.config",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-22T04:55:50.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Girish\\TEST4X\\eShop4x\\WebAPI\\Web.config",
+              "RelativeDocumentMoniker": "WebAPI\\Web.config",
+              "ToolTip": "C:\\Girish\\TEST4X\\eShop4x\\WebAPI\\Web.config",
+              "RelativeToolTip": "WebAPI\\Web.config",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-22T04:45:03.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductCatalogController.cs",
+              "DocumentMoniker": "C:\\Girish\\TEST4X\\eShop4x\\WebAPI\\Controllers\\ProductCatalogController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ProductCatalogController.cs",
+              "ToolTip": "C:\\Girish\\TEST4X\\eShop4x\\WebAPI\\Controllers\\ProductCatalogController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\ProductCatalogController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAApwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T04:54:32.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UnityConfig.cs",
+              "DocumentMoniker": "C:\\Girish\\TEST4X\\eShop4x\\WebAPI\\App_Start\\UnityConfig.cs",
+              "RelativeDocumentMoniker": "WebAPI\\App_Start\\UnityConfig.cs",
+              "ToolTip": "C:\\Girish\\TEST4X\\eShop4x\\WebAPI\\App_Start\\UnityConfig.cs",
+              "RelativeToolTip": "WebAPI\\App_Start\\UnityConfig.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAtwBAAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T04:12:23.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductListingService.cs",
+              "DocumentMoniker": "C:\\Girish\\TEST4X\\eShop4x\\WebMVC\\Services\\ProductListingService.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Services\\ProductListingService.cs",
+              "ToolTip": "C:\\Girish\\TEST4X\\eShop4x\\WebMVC\\Services\\ProductListingService.cs",
+              "RelativeToolTip": "WebMVC\\Services\\ProductListingService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwCwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T04:19:14.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "C:\\Girish\\TEST4X\\eShop4x\\eShop.Repository.EntityFramework\\Cart\\CartRepository.cs",
+              "RelativeDocumentMoniker": "eShop.Repository.EntityFramework\\Cart\\CartRepository.cs",
+              "ToolTip": "C:\\Girish\\TEST4X\\eShop4x\\eShop.Repository.EntityFramework\\Cart\\CartRepository.cs",
+              "RelativeToolTip": "eShop.Repository.EntityFramework\\Cart\\CartRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAawA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T04:08:01.28Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

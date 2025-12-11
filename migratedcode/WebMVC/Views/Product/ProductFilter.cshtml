@@ -1,0 +1,33 @@
+﻿@model eShop.Web.ViewModels.ProductListViewModel.ProductListViewModel
+
+<div class="bx--product-filter">
+    <h5>Apply Filter</h5>
+    <br />
+    <label class="bx--label">Product Type</label>
+    <div class="bx--radio-button-group  bx--radio-button-group--vertical">
+        @foreach (var type in Model.ProductTypes)
+        {
+            <div class="bx--radio-button-wrapper">
+                <input class="bx--radio-button" id="productType-@type.Id" name="productType" value="@type.Id" onclick="SearchProduct()" type="radio">
+                <label for="productType-@type.Id" class="bx--radio-button__label">
+                    <span class="bx--radio-button__appearance"></span>
+                    <span class="bx--radio-button__label-text">@type.Name</span>
+                </label>
+            </div>
+        }
+    </div>
+    <br />
+    <label class="bx--label">Brand</label>
+    <div class="bx--radio-button-group  bx--radio-button-group--vertical ">
+        @foreach (var brand in Model.ProductBrands)
+        {
+            <div class="bx--radio-button-wrapper">
+                <input class="bx--radio-button" id="prodcutBrand-@brand.Id" name="prodcutBrand" value="@brand.Id" onclick="SearchProduct()" type="radio">
+                <label for="prodcutBrand-@brand.Id" class="bx--radio-button__label">
+                    <span class="bx--radio-button__appearance"></span>
+                    <span class="bx--radio-button__label-text">@brand.Name</span>
+                </label>
+            </div>
+        }
+    </div>
+</div>

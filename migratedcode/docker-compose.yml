@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  eshop.webapi:
+    image: ${DOCKER_REGISTRY-}eshopwebapi
+    build:
+      context: .\WebAPI
+      dockerfile: Dockerfile
+
+  eshop.web:
+    image: ${DOCKER_REGISTRY-}eshopweb
+    build:
+      context: .\WebMVC
+      dockerfile: Dockerfile
+

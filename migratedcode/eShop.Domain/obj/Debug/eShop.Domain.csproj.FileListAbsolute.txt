@@ -1,0 +1,14 @@
+C:\Girish\work\AE\mso-tech-ref-impl-eshop-4x\src\eShop.Domain\bin\Debug\eShop.Domain.dll
+C:\Girish\work\AE\mso-tech-ref-impl-eshop-4x\src\eShop.Domain\bin\Debug\eShop.Domain.pdb
+C:\Girish\work\AE\mso-tech-ref-impl-eshop-4x\src\eShop.Domain\obj\Debug\eShop.Domain.csproj.AssemblyReference.cache
+C:\Girish\work\AE\mso-tech-ref-impl-eshop-4x\src\eShop.Domain\obj\Debug\eShop.Domain.csproj.CoreCompileInputs.cache
+C:\Girish\work\AE\mso-tech-ref-impl-eshop-4x\src\eShop.Domain\obj\Debug\eShop.Domain.dll
+C:\Girish\work\AE\mso-tech-ref-impl-eshop-4x\src\eShop.Domain\obj\Debug\eShop.Domain.pdb
+C:\Girish\TEST4X\eShop4x\eShop.Domain\bin\Debug\eShop.Domain.dll
+C:\Girish\TEST4X\eShop4x\eShop.Domain\bin\Debug\eShop.Domain.pdb
+C:\Girish\TEST4X\eShop4x\eShop.Domain\obj\Debug\eShop.Domain.csproj.AssemblyReference.cache
+C:\Girish\TEST4X\eShop4x\eShop.Domain\obj\Debug\eShop.Domain.csproj.CoreCompileInputs.cache
+C:\Girish\TEST4X\eShop4x\eShop.Domain\obj\Debug\eShop.Domain.dll
+C:\Girish\TEST4X\eShop4x\eShop.Domain\obj\Debug\eShop.Domain.pdb
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Domain\obj\Debug\eShop.Domain.dll
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Domain\obj\Debug\eShop.Domain.pdb

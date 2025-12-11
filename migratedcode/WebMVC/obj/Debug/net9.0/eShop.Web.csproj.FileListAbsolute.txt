@@ -1,0 +1,11 @@
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\WebMVC\obj\Debug\net9.0\eShop.Web.csproj.AssemblyReference.cache
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\WebMVC\obj\Debug\net9.0\rpswa.dswa.cache.json
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\WebMVC\obj\Debug\net9.0\eShop.Web.GeneratedMSBuildEditorConfig.editorconfig
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\WebMVC\obj\Debug\net9.0\eShop.Web.AssemblyInfoInputs.cache
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\WebMVC\obj\Debug\net9.0\eShop.Web.AssemblyInfo.cs
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\WebMVC\obj\Debug\net9.0\eShop.Web.csproj.CoreCompileInputs.cache
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\WebMVC\obj\Debug\net9.0\eShop.Web.MvcApplicationPartsAssemblyInfo.cs
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\WebMVC\obj\Debug\net9.0\eShop.Web.MvcApplicationPartsAssemblyInfo.cache
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\WebMVC\obj\Debug\net9.0\eShop.Web.RazorAssemblyInfo.cache
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\WebMVC\obj\Debug\net9.0\eShop.Web.RazorAssemblyInfo.cs
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\WebMVC\obj\Debug\net9.0\eShop.Web.sourcelink.json

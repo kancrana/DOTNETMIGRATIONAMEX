@@ -1,0 +1,6 @@
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Repository.EntityFramework\obj\Debug\netstandard2.0\eShop.Repository.EntityFramework.csproj.AssemblyReference.cache
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Repository.EntityFramework\obj\Debug\netstandard2.0\eShop.Repository.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Repository.EntityFramework\obj\Debug\netstandard2.0\eShop.Repository.EntityFramework.AssemblyInfoInputs.cache
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Repository.EntityFramework\obj\Debug\netstandard2.0\eShop.Repository.EntityFramework.AssemblyInfo.cs
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Repository.EntityFramework\obj\Debug\netstandard2.0\eShop.Repository.EntityFramework.csproj.CoreCompileInputs.cache
+c:\opt\app-root\data\1261\cbc55782-9cab-4db2-bbb7-9139924fb12e\1261-DOTNETMIGRATIONAMEX\eShop.Repository.EntityFramework\obj\Debug\netstandard2.0\eShop.Repository.EntityFramework.sourcelink.json

@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - eShop</title>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/carbondesign")
+    @Styles.Render("~/content/carbondesign")
+    @RenderSection("scripts", required: false)
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/bootstrap.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/container.css")" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <header aria-label="IBM Platform Name" class="bx--header" role="banner">
+            <button aria-label="App Switcher" class="bx--header__action" type="button">
+                <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" style="will-change: transform;">
+                    <path d="M15.5 15.5H18V18h-2.5zm-6.75 0h2.5V18h-2.5zM2 15.5h2.5V18H2zm13.5-6.75H18v2.5h-2.5zm-6.75 0h2.5v2.5h-2.5zM2 8.75h2.5v2.5H2zM15.5 2H18v2.5h-2.5zM8.75 2h2.5v2.5h-2.5zM2 2h2.5v2.5H2z"></path>
+                </svg>
+            </button>
+            <a class="bx--header__name" runat="server" href="@Url.Action("Index", "Product")">
+                <span class="bx--header__name--prefix">eShop</span>
+            </a>
+            <a class="bx--header__subname" runat="server" href="@Url.Action("Index", "Product")">
+                <span class="bx--header__name--prefix">Product</span>
+            </a>
+            <nav aria-label="Carbon Design" class="bx--header__nav">
+            </nav>
+            <div class="bx--header__global">
+                <a class="bx--header__subname">
+                    <span class="bx--header__name--prefix">IBM User</span>
+                </a>
+                @{
+                    var sessionVar = HttpContext.Current.Session["CartCount"] != null ? HttpContext.Current.Session["CartCount"] : 0;
+
+                }
+                <button aria-label="App Switcher" class="bx--header__action bx--badge-parent" type="button"
+                        onclick="location.href='@Url.Action("Index", "Cart",new { customerId = "1" })'">
+                    <span class="bx--badge-item">@sessionVar</span>
+                    <svg fill="currentColor" width="26" height="26" viewBox="0 0 32 32" aria-hidden="true"><circle cx="10" cy="28" r="2" /><circle cx="24" cy="28" r="2" /><path d="M28,7H5.82L5,2.8A1,1,0,0,0,4,2H0V4H3.18L7,23.2A1,1,0,0,0,8,24H26V22H8.82L8,18H26a1,1,0,0,0,1-.78l2-9A1,1,0,0,0,28,7Zm-2.8,9H7.62L6.22,9H26.75Z" /><rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" /></svg>
+                </button>
+                <button aria-label="App Switcher" class="bx--header__action" type="button">
+                    <svg fill="currentColor" width="26" height="26" viewBox="0 0 32 32" aria-hidden="true"><path d="M16,8a5,5,0,1,0,5,5A5,5,0,0,0,16,8Zm0,8a3,3,0,1,1,3-3A3.0034,3.0034,0,0,1,16,16Z"></path><path d="M16,2A14,14,0,1,0,30,16,14.0158,14.0158,0,0,0,16,2ZM10,26.3765V25a3.0033,3.0033,0,0,1,3-3h6a3.0033,3.0033,0,0,1,3,3v1.3765a11.8989,11.8989,0,0,1-12,0Zm13.9925-1.4507A5.0016,5.0016,0,0,0,19,20H13a5.0016,5.0016,0,0,0-4.9925,4.9258,12,12,0,1,1,15.985,0Z"></path></svg>
+                </button>
+            </div>
+        </header>
+        <main>
+            <section style="text-align: center">
+                @RenderBody()
+            </section>
+        </main>
+    </div>
+</body>
+</html>

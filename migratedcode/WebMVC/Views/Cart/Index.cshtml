@@ -1,0 +1,90 @@
+﻿@using eShop.Web.ViewModels;
+@{
+    ViewBag.Title = "My-Cart";
+}
+<script src="~/Content/Carbon/cart.js"></script>
+<header class="div-page-title">Cart</header>
+<div class="bx--div-notification">
+    <h5 class="bx--notification-title ">Shopping Bag</h5>
+    <div id="notification" class="bx-div-notification-holder"></div>
+</div>
+<div class="bx--cart-layout">
+    @if (Model?.Items?.Count > 0)
+    {
+        <div class="bx--cart-items">
+            @{int index = 0;}
+            @foreach (var item in Model?.Items)
+            {
+                var id = item.ProductId;
+                index++;
+                <div class="bx--cart-item" id="bx--cart-item-@index">
+                    <div class="bx--cart-image"><img src="@item.PictureUrl" alt=""></div>
+                    <div class="bx--cart-content">
+                        <div class="bx--cart-text product-name"> @item.ProductName</div>
+                        <div class="bx--cart-quantity">
+                            <div class="bx--number bx--number--mobile">
+                                <label class="bx--label">Quantity</label>
+                                <div class="bx--number__input-wrapper">
+                                    <button onclick="updateItemQuantity(@index, @id, false)" class="bx--number__control-btn down-icon" type="button" aria-label="decrease number input" aria-live="polite" aria-atomic="true">
+                                        <svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" width="8" height="4" viewBox="0 0 8 4" aria-hidden="true"><path d="M8 0L4 4 0 0z"></path></svg>
+                                    </button>
+                                    <input id="bx--cartitem-quantity-@index" value="@item.Quantity" class="bx--cart-quantity-input" type="number" pattern="\d*" min="1" max="100" disabled>
+                                    <button onclick="updateItemQuantity(@index, @id, true)" class="bx--number__control-btn up-icon" type="button" aria-label="increase number input" aria-live="polite" aria-atomic="true">
+                                        <svg focusable="false" preserveAspectRatio="xMidYMid meet" style="will-change: transform;" xmlns="http://www.w3.org/2000/svg" width="8" height="4" viewBox="0 0 8 4" aria-hidden="true"><path d="M0 4L4 0 8 4z"></path></svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bx--cart-price">
+                        <div class="bx--cart-text price"><label class="bx--label">Unit Price: </label>₹ @item.UnitPrice</div>
+                        <div class="bx--cart-text total-price">
+                            <label class="bx--label">Total Price: ₹</label>
+                            <label id="bx--cartitem-totalprice-@index" class="bx--label">@(item.UnitPrice * item.Quantity)</label>
+                        </div>
+                    </div>
+                    <div class="bx--cart-action">
+                        <button class="bx--cart-action-button" onclick="saveCartItem()">Save</button>
+                        <button class="bx--cart-action-button bx--cartbutton-left-border" onclick="deleteCartItem(@id, @index)">Remove</button>
+                    </div>
+                </div>
+
+            }
+        </div>
+        <div class="bx--cart-checkout">
+            <div class="bx-cart-add-product">
+                <div class="bx-cart-add-product-text" onclick="location.href='@Url.Action("Index", "Product")'">Add More Products</div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 7 12" class="bx-cart-add-product-icon"><path fill-rule="evenodd" d="M6.797 5.529a.824.824 0 0 0-.042-.036L1.19.193a.724.724 0 0 0-.986 0 .643.643 0 0 0 0 .94L5.316 6 .203 10.868a.643.643 0 0 0 0 .938.724.724 0 0 0 .986 0l5.566-5.299a.644.644 0 0 0 .041-.978"></path></svg>
+            </div>
+            <label class="bx--label title">Price Details</label>
+            <div class="bx--cart-checkout-item">
+                <div class="left">Total Items</div>
+                <div class="right">
+                    <label id="bx--cart-totalitems">@Model.TotalItems</label>
+                </div>
+            </div>
+            <div class="bx--cart-checkout-item">
+                <div class="left">Total Cost</div>
+                <div class="right">₹ <label id="bx--cart-totalprice">@Model.TotalPrice</label></div>
+            </div>
+            <button class="bx--btn bx--btn--primary bx--btn--sm button" type="button">Place Order</button>
+        </div>
+    }
+    else
+    {
+        <div class="bx--row bx--cart-no-records">Cart is empty.</div>
+    }
+    <div class="bx--row bx--cart-no-records" style="display: none">Cart is empty.</div>
+    <input type="hidden" id="cart-model" />
+</div>
+
+<script type="text/javascript">
+$(document).ready(function () {
+    var model = @Html.Raw(Json.Encode(Model));
+    $('#cart-model').val(JSON.stringify(model));
+});
+</script>
+
+
+
+

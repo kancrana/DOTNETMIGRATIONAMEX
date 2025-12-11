@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.10.14\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.10.14\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.systemwebadapters\2.2.0\build\Microsoft.AspNetCore.SystemWebAdapters.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.systemwebadapters\2.2.0\build\Microsoft.AspNetCore.SystemWebAdapters.targets')" />
+    <Import Project="$(NuGetPackageRoot)antlr4.codegenerator\4.6.6\build\Antlr4.CodeGenerator.targets" Condition="Exists('$(NuGetPackageRoot)antlr4.codegenerator\4.6.6\build\Antlr4.CodeGenerator.targets')" />
+  </ImportGroup>
+</Project>

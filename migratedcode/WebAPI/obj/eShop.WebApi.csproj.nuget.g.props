@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Windows\system32\config\systemprofile\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.14.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Windows\system32\config\systemprofile\.nuget\packages\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.11.1\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.visualstudio.azure.containers.tools.targets\1.11.1\build\Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.systemwebadapters\2.2.0\build\Microsoft.AspNetCore.SystemWebAdapters.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.systemwebadapters\2.2.0\build\Microsoft.AspNetCore.SystemWebAdapters.props')" />
+    <Import Project="$(NuGetPackageRoot)entityframework\6.5.1\buildTransitive\net6.0\EntityFramework.props" Condition="Exists('$(NuGetPackageRoot)entityframework\6.5.1\buildTransitive\net6.0\EntityFramework.props')" />
+    <Import Project="$(NuGetPackageRoot)antlr4.codegenerator\4.6.6\build\Antlr4.CodeGenerator.props" Condition="Exists('$(NuGetPackageRoot)antlr4.codegenerator\4.6.6\build\Antlr4.CodeGenerator.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgWebGrease Condition=" '$(PkgWebGrease)' == '' ">C:\Windows\system32\config\systemprofile\.nuget\packages\webgrease\1.6.0</PkgWebGrease>
+    <PkgModernizr Condition=" '$(PkgModernizr)' == '' ">C:\Windows\system32\config\systemprofile\.nuget\packages\modernizr\2.8.3</PkgModernizr>
+    <PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets Condition=" '$(PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets)' == '' ">C:\Windows\system32\config\systemprofile\.nuget\packages\microsoft.visualstudio.azure.containers.tools.targets\1.11.1</PkgMicrosoft_VisualStudio_Azure_Containers_Tools_Targets>
+    <PkgMicrosoft_AspNetCore_SystemWebAdapters Condition=" '$(PkgMicrosoft_AspNetCore_SystemWebAdapters)' == '' ">C:\Windows\system32\config\systemprofile\.nuget\packages\microsoft.aspnetcore.systemwebadapters\2.2.0</PkgMicrosoft_AspNetCore_SystemWebAdapters>
+    <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Windows\system32\config\systemprofile\.nuget\packages\jquery\3.4.1</PkgjQuery>
+    <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Windows\system32\config\systemprofile\.nuget\packages\entityframework\6.5.1</PkgEntityFramework>
+    <PkgAntlr4_CodeGenerator Condition=" '$(PkgAntlr4_CodeGenerator)' == '' ">C:\Windows\system32\config\systemprofile\.nuget\packages\antlr4.codegenerator\4.6.6</PkgAntlr4_CodeGenerator>
+    <PkgAntlr4 Condition=" '$(PkgAntlr4)' == '' ">C:\Windows\system32\config\systemprofile\.nuget\packages\antlr4\4.6.6</PkgAntlr4>
+  </PropertyGroup>
+</Project>

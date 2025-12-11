@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = eShop.Repository.SqlClient
+build_property.ProjectDir = C:\Girish\TEST4X\eShop4x\eShop.Repository.SqlClient\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

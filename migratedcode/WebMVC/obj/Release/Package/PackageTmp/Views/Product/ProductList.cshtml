@@ -1,0 +1,36 @@
+﻿@model  eShop.Web.ViewModels.ProductList
+
+<div class="bx--div-notification">
+    <h5 class="bx--notification-title ">Products</h5>
+    <div id="notification" class="bx-div-notification-holder"></div>
+</div>
+
+@foreach (var item in Model.Products)
+{
+    <div class="bx--product-item">
+        <div class="bx--product-content">
+            <div class="bx--product-image-block">
+                <div class="bx--product-image"><img src="@item.PictureFileName" alt=""></div>
+                <div class="bx--product-addcart">
+                    @*<button class="bx--product-action-button" onclick="AddToCart(@item.Id)">Add to Cart</button>*@
+                    <input type="submit" class="bx--product-action-button" value="Add to Cart" id="btnSubmit" onclick="AddToCart(@item.Id)" />
+                </div>
+            </div>
+            <div class="bx--product-details">
+                <div class="bx--product-text">
+                    <div class="bx--tooltip--definition bx--tooltip--a11y" data-tooltip-definition>
+                        <button class="bx--tooltip__trigger bx--tooltip--a11y bx--tooltip__trigger--definition bx--tooltip--bottom bx--tooltip--align-start bx--product-title">
+                            @item.Name
+                        </button>
+                        <div class="bx--assistive-text" role="tooltip">@item.Name</div>
+                    </div>
+                </div>
+                <div class="bx--product-text">
+                    <div class="bx--product-price">₹ @item.Price</div>
+                    <div class="bx--product-old-price">₹ @item.OldPrice</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+}
